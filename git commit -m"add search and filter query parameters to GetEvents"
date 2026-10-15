@@ -1,0 +1,6 @@
+- Support ?eventType= to filter by EventType
+- Support ?locationId= to filter by Location
+- Support ?organiserId= to filter by Organiser
+- Support ?fromDate= and ?toDate= for date-range filtering
+- Support ?search= for case-insensitive match on EventName
+- Combine filters with AND semantics; skip filter if param omitted
