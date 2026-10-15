@@ -1,0 +1,6 @@
+- Add EventDto, ParticipantDto and OrganiserDto for API contracts
+- Add CreateEventDto and UpdateEventDto for POST/PUT bodies
+- Stop returning EF entity classes directly from controllers
+- Prevents clients from setting fields like EventID or Ppassword
+- Prevents circular references in JSON serialization
+- Prepares the API for versioning and schema evolution
