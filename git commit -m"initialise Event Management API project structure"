@@ -1,0 +1,5 @@
+- Add EventsDbContext with DbSets for Events, Organiser, Participant,
+  Categories, Location, EventEnrolment, Result and History
+- Configure ASP.NET Core Web API template with controllers and routing
+- Register EventsDbContext via dependency injection in Program.cs
+- Set target framework and add Entity Framework Core packages
