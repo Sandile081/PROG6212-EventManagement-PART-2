@@ -1,0 +1,5 @@
+- Add navigation from Events to Organiser, Categories and Location
+- Add navigation from Participant to EventEnrolment, Result and History
+- Add navigation from Organiser to Events
+- Enables eager loading with .Include(...) instead of manual joins
+- Prepares the model for relationship configuration in OnModelCreating
