@@ -1,0 +1,10 @@
+- Add EventsDbContext with all entity DbSets
+- Add EventsController with full CRUD (GET, POST, PUT, DELETE)
+- Add ParticipantController with hashed passwords and
+  enrolment/result/history endpoints
+- Add OrganiserController with event lookup by organiser
+- Add PasswordHelper using SHA-256 with salt
+- Fix missing await in GetSingleEvent (was returning Ok(Task)
+  and never returning 404)
+- Add xUnit tests for EventsController using EF Core InMemory
+- Add .gitignore and README
