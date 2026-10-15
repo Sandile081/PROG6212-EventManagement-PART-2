@@ -1,0 +1,6 @@
+- Document prerequisites (.NET SDK, SQL Server / LocalDB)
+- Document connection string configuration in appsettings.json
+- Document "dotnet ef database update" migration step
+- List all API endpoints grouped by controller:
+    Events, Participants, Organisers
+- Document how to run unit tests with "dotnet test"
