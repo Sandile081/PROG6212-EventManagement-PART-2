@@ -1,0 +1,9 @@
+- Configure xUnit test project with EF Core InMemory provider
+- Add GetDatabaseContext() helper using a unique Guid per test
+  for isolation between tests
+- Add SeedEventAsync() helper to reduce test duplication
+- Cover GET /api/events (empty and populated)
+- Cover GET /api/events/{id} (found and not found)
+- Cover POST /api/events (created and persisted)
+- Cover PUT /api/events/{id} (id mismatch, not found, success)
+- Cover DELETE /api/events/{id} (not found, success, isolation)
