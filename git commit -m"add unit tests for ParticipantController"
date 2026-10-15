@@ -1,0 +1,10 @@
+- Configure test class to use EF Core InMemory provider
+- Cover POST /api/participant and verify Ppassword is hashed
+  (never stored in plain text)
+- Cover GET /api/participant returns all participants
+- Cover PUT /api/participant/{id} updates fields and returns 404
+  when participant does not exist
+- Cover GET /api/participant/{id}/Result returns latest result
+- Cover GET /api/participant/{id}/History returns all results
+  and 404 when the participant has none
+- Cover GET /api/participant/{id}/EventEnrolment returns status
