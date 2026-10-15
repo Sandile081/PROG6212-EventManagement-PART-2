@@ -1,0 +1,5 @@
+- Accept pageNumber and pageSize query parameters (default 1 / 10)
+- Apply .Skip().Take() in EF Core queries
+- Return metadata (total count, current page, page size) so clients
+  can build pagination controls
+- Add [Range] validation on pageSize to prevent abuse (max 100)
