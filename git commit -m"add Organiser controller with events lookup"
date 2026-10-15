@@ -1,0 +1,7 @@
+- Add POST /api/organiser to register an organiser
+- Hash ORpassword using PasswordHelper before saving
+- Add GET /api/organiser to list all organisers
+- Add PUT /api/organiser/{OrganiserID} to update organiser details
+- Add GET /api/organiser/{OrganiserID}/Events to list events hosted
+  by a specific organiser
+- Return 404 when organiser does not exist
