@@ -1,0 +1,10 @@
+The FindAsync call was not awaited, which caused the method to
+return Ok(ValueTask<Events>) instead of Ok(Events). This also meant
+the null check never executed, so a missing event returned HTTP 200
+instead of HTTP 404.
+
+- Add await to _context.Events.FindAsync(EventID)
+- Ensure the null check runs and NotFound() is returned when the
+  event does not exist
+
+Fixes: #<issue-number> (or "Caught by unit tests EventsControllerTests")
