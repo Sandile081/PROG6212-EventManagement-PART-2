@@ -1,0 +1,7 @@
+- Implement GET /api/events to return all events
+- Implement GET /api/events/{EventID} to return a single event
+- Implement POST /api/events to create a new event
+- Implement PUT /api/events/{EventID} to update an existing event
+- Implement DELETE /api/events/{EventID} to remove an event
+- Use async/await with EF Core (ToListAsync, FindAsync, SaveChangesAsync)
+- Return appropriate HTTP status codes (200, 201, 400, 404)
