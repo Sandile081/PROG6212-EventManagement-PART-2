@@ -1,0 +1,7 @@
+- Configure one-to-many between Organiser and Events
+- Configure one-to-many between Participant and EventEnrolment
+- Configure one-to-many between Participant and Result
+- Configure one-to-many between Events and EventEnrolment
+- Set ON DELETE behaviour (Restrict for reference data,
+  Cascade for dependent records like EventEnrolment)
+- Add unique index on Participant.Pusername and Organiser.ORusername
