@@ -1,0 +1,6 @@
+- Mark EventName and Description with [Required] and [StringLength]
+- Mark Date, Distance and EventType with [Required]
+- Add [Range] on OrganiserID, CategoryID and LocationID to enforce
+  positive IDs
+- Controllers now rely on [ApiController] to return 400 automatically
+  when ModelState is invalid
