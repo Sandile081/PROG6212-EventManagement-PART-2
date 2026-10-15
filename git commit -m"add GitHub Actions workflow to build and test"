@@ -1,0 +1,7 @@
+- Add .github/workflows/dotnet.yml
+- Trigger on push and pull_request to main
+- Use actions/setup-dotnet with .NET 8 SDK
+- Run "dotnet restore", "dotnet build --no-restore" and
+  "dotnet test --no-build" with code coverage
+- Upload test results as workflow artifacts
+- Block merges on failing tests via branch protection
