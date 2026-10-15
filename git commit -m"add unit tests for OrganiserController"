@@ -1,0 +1,7 @@
+- Cover POST /api/organiser and verify ORpassword is hashed
+- Cover GET /api/organiser returns all organisers
+- Cover PUT /api/organiser/{id} returns 404 for missing organiser
+- Cover GET /api/organiser/{id}/Events returns only events that
+  belong to the given organiser
+- Cover GET /api/organiser/{id}/Events returns 404 when organiser
+  has no events
