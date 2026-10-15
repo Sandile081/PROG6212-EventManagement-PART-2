@@ -1,0 +1,3 @@
+- Add standard Visual Studio .gitignore
+- Ignore bin/, obj/, .vs/, *.user and test result artefacts
+- Remove previously committed build output
