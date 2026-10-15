@@ -1,0 +1,3 @@
+EventID is a value type (int) and can never be null, so the
+"EventID == null" branch was unreachable dead code. Removed it
+and rely on the FindAsync null check to return 404.
